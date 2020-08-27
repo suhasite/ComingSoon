@@ -1,0 +1,26 @@
+{
+  "name": "comingsoon",
+  "version": "1.0.0",
+  "description": "SuhaSite Solutions Pvt. Ltd. Coming Soon Page.",
+  "main": "app.js",
+  "homepage": "https://suhasite.github.io/coming_soon",
+  "scripts": {
+    "sass": "node-sass -w public/scss/ -o public/css/ --recursive",
+    "deploy": "gh-pages -d dist/index.html "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suhasite/coming_soon.git"
+  },
+  "author": "Ahmed Habib",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suhasite/coming_soon/issues"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}

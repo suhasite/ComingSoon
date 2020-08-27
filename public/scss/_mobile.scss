@@ -1,0 +1,9 @@
+@include mediaXl {}
+
+@include mediaLg {}
+
+@include mediaMd {
+    body {}
+}
+
+@include mediaSm {}

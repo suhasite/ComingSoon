@@ -1,0 +1,101 @@
+body {
+  background: url("https://images.pexels.com/photos/509922/pexels-photo-509922.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500https://images.pexels.com/photos/1057003/pexels-photo-1057003.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-position: center center;
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  /* Background image is fixed in the viewport so that it doesn't move when 
+       the content's height is greater than the image's height */
+  background-attachment: fixed;
+  /* This is what makes the background image rescale based
+       on the container's size */
+  background-size: cover;
+  font-family: 'century gothic'; }
+
+.container {
+  width: 80%;
+  margin: auto; }
+  .container .logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%; }
+    .container .logo img {
+      width: 650px;
+      height: auto; }
+  .container .text h1 {
+    display: flex;
+    justify-content: center;
+    color: #292929;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 5px; }
+    .container .text h1 span {
+      color: #2a6ebb;
+      padding-left: 1px; }
+  .container .text p {
+    width: 450px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    color: #292929;
+    margin: auto; }
+  .container .countdown {
+    width: 620px;
+    height: 135px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 1.5s ease-in;
+    margin: auto; }
+    .container .countdown .circle {
+      color: white;
+      width: 135px;
+      height: 135px;
+      border-radius: 50%;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+      text-align: center; }
+      .container .countdown .circle .countIn {
+        padding: 30px; }
+        .container .countdown .circle .countIn span {
+          font-size: 30px;
+          font-weight: bold;
+          color: #2a6ebb;
+          width: 40px;
+          height: 19px; }
+        .container .countdown .circle .countIn .line {
+          height: 3px;
+          width: 40px;
+          background: transparent;
+          margin-left: 1.1rem;
+          border: 0;
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16); }
+        .container .countdown .circle .countIn p {
+          margin-top: 6px;
+          font-size: 24px;
+          color: #292929; }
+  .container .social {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem; }
+    .container .social .social-icon {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 200px;
+      height: 45px; }
+      .container .social .social-icon img {
+        width: 45px;
+        height: 45px; }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem; }
+  footer.main-footer {
+    font-size: 16px;
+    letter-spacing: 1px; }
+    footer.main-footer a {
+      color: #292929;
+      text-decoration: none;
+      margin-left: 2px; }
