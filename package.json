@@ -2,11 +2,11 @@
   "name": "comingsoon",
   "version": "1.0.0",
   "description": "SuhaSite Solutions Pvt. Ltd. Coming Soon Page.",
-  "main": "app.js",
-  "homepage": "https://suhasite.github.io/coming_soon",
+  "main": "dist/index.html",
+  "homepage": "https://github.com/suhasite/ComingSoon",
   "scripts": {
     "sass": "node-sass -w public/scss/ -o public/css/ --recursive",
-    "deploy": "gh-pages -d dist/index.html "
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
